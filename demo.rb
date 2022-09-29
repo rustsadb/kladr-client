@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'lib/kladr_client'
 
 KladrClient.config do |c|

@@ -4,11 +4,11 @@
 module KladrClient
   FREE_URL = 'https://kladr-api.ru/api.php'
   PAID_URL = 'https://kladr-api.com/api.php'
-  
+
   class << self
     attr_accessor :api_key
 
-    attr_writer :raw_response, :base_url
+    attr_writer :raw_response, :base_url, :paid_version
 
     # Base url for requests. Exists free and paid urls
     def base_url
