@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 require 'rake'
-require "#{Rails.root}/config/kladr_client"
+require 'kladr_client'
 
 namespace :kladr_client do
-  task :import do
-    KladrClient::TaskDefinition::Installer.start
+  task :install do
+    KladrClient::TaskDefinition::Installer.install
   end
 end

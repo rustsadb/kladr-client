@@ -2,6 +2,7 @@
 
 require 'dotenv/load'
 require 'simplecov'
+require 'pry'
 
 SimpleCov.start 'rails' do
   add_filter 'spec/'
@@ -15,10 +16,16 @@ if ENV['CI'] == 'true'
   SimpleCov.formatter = SimpleCov::Formatter::Codecov
 end
 
-# Support files
-Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].sort.each { |f| require f }
+require_relative 'support/file_manager'
+require_relative 'support/rake_utils'
 
 # Configure Rails Environment
 ENV['RAILS_ENV'] = 'test'
-require_relative '../spec/dummy/config/environment'
-ENV['RAILS_ROOT'] ||= "#{File.dirname(__FILE__)}../../../spec/dummy"
+require_relative 'dummy/config/environment'
+
+RSpec.configure do |config|
+  config.include FileManager
+  config.include RakeUtils
+end
+
+Rails.application.load_tasks

@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'oj', '~> 3.13'
   s.add_development_dependency 'codecov', '~> 0.2'
   s.add_development_dependency 'dotenv', '~> 2.5'
+  s.add_development_dependency 'pry'
   s.add_development_dependency 'rails', '~> 7.0'
   s.add_development_dependency 'rake', '~> 13.0'
   s.add_development_dependency 'rspec', '~> 3.6'

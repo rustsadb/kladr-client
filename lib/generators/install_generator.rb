@@ -7,12 +7,12 @@ module KladrClient
   module Generators
     # Installs LokaliseRails KladrClient
     class InstallGenerator < Rails::Generators::Base
-      source_root File.expand_path('../templates', __dir__)
+      source_root File.expand_path('./templates', __dir__)
 
       desc 'Creates a kladr_client config file.'
 
       def copy_config
-        template 'kladr_client_config.rb', "#{Rails.root}/config/kladr_client.rb"
+        template 'kladr_client_config.rb', "#{Rails.root}/config/initializers/kladr_client.rb"
       end
     end
   end
