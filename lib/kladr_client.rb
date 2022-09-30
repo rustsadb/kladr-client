@@ -1,9 +1,5 @@
 # frozen_string_literal: true
 
-require 'kladr_client/task_definition/base'
-require 'kladr_client/task_definition/installer'
-require 'kladr_client/railtie' if defined?(Rails)
-
 # Settings
 module KladrClient
   FREE_URL = 'https://kladr-api.ru/api.php'

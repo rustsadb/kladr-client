@@ -27,5 +27,3 @@ RSpec.configure do |config|
   config.include FileManager
   config.include RakeUtils
 end
-
-Rails.application.load_tasks
