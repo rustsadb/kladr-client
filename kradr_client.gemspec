@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.platform              = Gem::Platform::RUBY
   s.required_ruby_version = Gem::Requirement.new('>= 2.7')
   s.extra_rdoc_files      = ['README.md']
+  s.require_paths         = ['lib']
 
   s.files = Dir['README.md', 'LICENSE', 'CHANGELOG.md',
                 'lib/**/*.rb', 'lib/**/*.rake', 'kradr_client.gemspec',
@@ -35,5 +36,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'simplecov', '~> 0.16'
   s.add_development_dependency 'sprockets-rails', '~> 3'
   s.add_development_dependency 'vcr'
+  s.add_development_dependency 'webmock', '~> 3.14'
   s.metadata['rubygems_mfa_required'] = 'true'
 end

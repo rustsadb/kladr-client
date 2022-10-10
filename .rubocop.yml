@@ -7,3 +7,6 @@ AllCops:
   NewCops: enable
   Exclude:
     - 'spec/dummy/**/*'
+
+RSpec/MultipleExpectations:
+  Enabled: false

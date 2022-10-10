@@ -2,11 +2,6 @@
 
 # Settings
 module KladrClient
-  require_relative 'kladr_client/client'
-  require_relative 'kladr_client/errors'
-  require_relative 'kladr_client/version'
-  require_relative 'kladr_client/response_handler'
-
   FREE_URL = 'https://kladr-api.ru/api.php'
   PAID_URL = 'https://kladr-api.com/api.php'
 

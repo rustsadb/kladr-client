@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require 'generators/install_generator'
+require 'kladr_client/generators/install_generator'
 
-describe KladrClient::Generators::InstallGenerator do # rubocop disable: convention:RSpec/FilePath
+describe KladrClient::Generators::InstallGenerator do
   before do
     remove_config
   end

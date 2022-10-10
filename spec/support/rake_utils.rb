@@ -2,6 +2,6 @@
 
 module RakeUtils
   def install_executor
-    -> { Rake::Task['lokalise_rails:install'].execute }
+    -> { Rake::Task['kladr_client:install'].execute }
   end
 end

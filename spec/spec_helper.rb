@@ -12,11 +12,6 @@ SimpleCov.start 'rails' do
   add_filter 'lib/kladr_client/version'
 end
 
-if ENV['CI'] == 'true'
-  require 'codecov'
-  SimpleCov.formatter = SimpleCov::Formatter::Codecov
-end
-
 require_relative 'support/file_manager'
 require_relative 'support/rake_utils'
 
