@@ -3,6 +3,7 @@
 require 'dotenv/load'
 require 'simplecov'
 require 'pry'
+require 'vcr'
 
 SimpleCov.start 'rails' do
   add_filter 'spec/'
@@ -26,4 +27,10 @@ require_relative 'dummy/config/environment'
 RSpec.configure do |config|
   config.include FileManager
   config.include RakeUtils
+end
+
+VCR.configure do |config|
+  config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+  config.ignore_hosts '127.0.0.1', 'localhost'
+  config.hook_into :webmock
 end

@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.email                 = 'magistik.mag@yandex.ru'
   s.homepage              = 'https://github.com/rustsadb/kladr-client'
   s.platform              = Gem::Platform::RUBY
-  s.required_ruby_version = Gem::Requirement.new('>= 2.5')
+  s.required_ruby_version = Gem::Requirement.new('>= 2.7')
   s.extra_rdoc_files      = ['README.md']
 
   s.files = Dir['README.md', 'LICENSE', 'CHANGELOG.md',
