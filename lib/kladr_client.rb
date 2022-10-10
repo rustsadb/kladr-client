@@ -32,7 +32,7 @@ module KladrClient
     end
 
     def free?
-      @base_url == FREE_URL
+      base_url == FREE_URL
     end
   end
 end

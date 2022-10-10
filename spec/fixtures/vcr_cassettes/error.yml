@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://kladr-api.ru/api.php?contentType=bebra&limit=5&query=%D0%9C%D0%BE
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Mon, 10 Oct 2022 19:57:20 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rTdigTmvNQOE29pZfSeR2ziktns%2FVLly0EviIuFaC6DvwBlccgUDyTpbrAa%2BjZozfgtEQHgsDGDFw9xnjAwFNdIYOsw%2FpKucZu45BFL0pRSayz4sUMDL9mRZoXXV8hE%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7581ecad8eb79048-FRA
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: contentType incorrect
+  recorded_at: Mon, 10 Oct 2022 19:57:22 GMT
+recorded_with: VCR 6.1.0

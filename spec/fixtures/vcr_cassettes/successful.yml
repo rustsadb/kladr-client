@@ -1,0 +1,138 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://kladr-api.ru/api.php?contentType=city&limit=5&query=%D0%9C%D0%BE
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Oct 2022 19:24:11 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BL2CJQKpduB7yOg%2Fuy4jQE9P6HhP4%2FAdZj%2FT%2Frb4msFWP6KtX%2FXWa0h1jnpDN7u311piqEsSI4%2BC6TVlmEcfWWJ0r1BbJqZnZBxvIu6JI%2Bm443y3E0i%2FwHLDs98u0OU%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7581bc1909799040-FRA
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"searchContext":{"contentType":"city","query":"\u041c\u043e","limit":5},"result":[{"id":"Free","name":"\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u0430\u044f
+        \u0432\u0435\u0440\u0441\u0438\u044f kladr-api.ru","zip":"100000","type":"","typeShort":"","okato":"","contentType":"city"},{"id":"7700000000000","name":"\u041c\u043e\u0441\u043a\u0432\u0430","zip":111674,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"45000000000","contentType":"city","guid":"0c5b2444-70a0-4932-980c-b4dc0d3f02b5","ifnsfl":"7700","ifnsul":"7700","oktmo":"45000000","parentGuid":"","cadnum":""},{"id":"1500700100000","name":"\u041c\u043e\u0437\u0434\u043e\u043a","zip":363753,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"90230501000","contentType":"city","guid":"654ce513-3c99-414d-88b8-846097cc9ae3","ifnsfl":"1510","ifnsul":"1510","oktmo":"90630101001","parentGuid":"d04c0f8c-fe4d-4b5a-ad8e-a43f3be133c9","cadnum":""},{"id":"4001800100000","name":"\u041c\u043e\u0441\u0430\u043b\u044c\u0441\u043a","zip":249930,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"29229501000","contentType":"city","guid":"4ae6d306-349e-4fb8-9ce9-7c3735d3c4e6","ifnsfl":"4023","ifnsul":"4023","oktmo":"29629101001","parentGuid":"330725f9-b35b-453c-a2b3-e7844d2ef172","cadnum":""},{"id":"6102500100000","name":"\u041c\u043e\u0440\u043e\u0437\u043e\u0432\u0441\u043a","zip":347211,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"60234501000","contentType":"city","guid":"933cca52-9ab1-490e-b674-ec3789233e28","ifnsfl":"6192","ifnsul":"6192","oktmo":"60634101001","parentGuid":"3df59ad3-25ad-4348-8a9b-dcf40d8ed3f8","cadnum":""},{"id":"7501400100000","name":"\u041c\u043e\u0433\u043e\u0447\u0430","zip":673730,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"76226501000","contentType":"city","guid":"29eb6b99-27ad-493c-9fd1-a83fe8acdf24","ifnsfl":"7527","ifnsul":"7527","oktmo":"76626101001","parentGuid":"cafc58e1-f461-4298-a150-4724110d102f","cadnum":""}]}'
+  recorded_at: Mon, 10 Oct 2022 19:24:12 GMT
+- request:
+    method: get
+    uri: https://kladr-api.ru/api.php?contentType=city&limit=5&query=%D0%9C%D0%BE
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Oct 2022 19:24:34 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bU6gpTatHAIQ%2Fu2cSlBXT%2Bcp139JIkSXJuiy4BBgXPBpj%2BfA39qKVlQNrBa8D4FReVjJEYpbijABDgQhrEw8VRTQlSolG0gGYwChKeslzxfNv4D0TDa%2FpZQyHIw%2F2Cs%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7581bca82e99b93f-AMS
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"searchContext":{"contentType":"city","query":"\u041c\u043e","limit":5},"result":[{"id":"Free","name":"\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u0430\u044f
+        \u0432\u0435\u0440\u0441\u0438\u044f kladr-api.ru","zip":"100000","type":"","typeShort":"","okato":"","contentType":"city"},{"id":"7700000000000","name":"\u041c\u043e\u0441\u043a\u0432\u0430","zip":111674,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"45000000000","contentType":"city","guid":"0c5b2444-70a0-4932-980c-b4dc0d3f02b5","ifnsfl":"7700","ifnsul":"7700","oktmo":"45000000","parentGuid":"","cadnum":""},{"id":"1500700100000","name":"\u041c\u043e\u0437\u0434\u043e\u043a","zip":363753,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"90230501000","contentType":"city","guid":"654ce513-3c99-414d-88b8-846097cc9ae3","ifnsfl":"1510","ifnsul":"1510","oktmo":"90630101001","parentGuid":"d04c0f8c-fe4d-4b5a-ad8e-a43f3be133c9","cadnum":""},{"id":"4001800100000","name":"\u041c\u043e\u0441\u0430\u043b\u044c\u0441\u043a","zip":249930,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"29229501000","contentType":"city","guid":"4ae6d306-349e-4fb8-9ce9-7c3735d3c4e6","ifnsfl":"4023","ifnsul":"4023","oktmo":"29629101001","parentGuid":"330725f9-b35b-453c-a2b3-e7844d2ef172","cadnum":""},{"id":"6102500100000","name":"\u041c\u043e\u0440\u043e\u0437\u043e\u0432\u0441\u043a","zip":347211,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"60234501000","contentType":"city","guid":"933cca52-9ab1-490e-b674-ec3789233e28","ifnsfl":"6192","ifnsul":"6192","oktmo":"60634101001","parentGuid":"3df59ad3-25ad-4348-8a9b-dcf40d8ed3f8","cadnum":""},{"id":"7501400100000","name":"\u041c\u043e\u0433\u043e\u0447\u0430","zip":673730,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"76226501000","contentType":"city","guid":"29eb6b99-27ad-493c-9fd1-a83fe8acdf24","ifnsfl":"7527","ifnsul":"7527","oktmo":"76626101001","parentGuid":"cafc58e1-f461-4298-a150-4724110d102f","cadnum":""}]}'
+  recorded_at: Mon, 10 Oct 2022 19:24:35 GMT
+- request:
+    method: get
+    uri: https://kladr-api.ru/api.php?contentType=city&limit=5&query=%D0%9C%D0%BE
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 10 Oct 2022 19:24:38 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kr7LYP34HRbD8y2FDAk83YRpTfnjNGhNRPxKyMM1%2Fyh2uqpw8GmzfDAWtGwaqhXNIxOtmmTmXY5iggcBYwkIpDODf7mygENx%2BpxVP1loXPX8SWZemwL0%2FiGCIsWNZKg%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7581bcc6ea794242-AMS
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"searchContext":{"contentType":"city","query":"\u041c\u043e","limit":5},"result":[{"id":"Free","name":"\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u0430\u044f
+        \u0432\u0435\u0440\u0441\u0438\u044f kladr-api.ru","zip":"100000","type":"","typeShort":"","okato":"","contentType":"city"},{"id":"7700000000000","name":"\u041c\u043e\u0441\u043a\u0432\u0430","zip":111674,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"45000000000","contentType":"city","guid":"0c5b2444-70a0-4932-980c-b4dc0d3f02b5","ifnsfl":"7700","ifnsul":"7700","oktmo":"45000000","parentGuid":"","cadnum":""},{"id":"1500700100000","name":"\u041c\u043e\u0437\u0434\u043e\u043a","zip":363753,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"90230501000","contentType":"city","guid":"654ce513-3c99-414d-88b8-846097cc9ae3","ifnsfl":"1510","ifnsul":"1510","oktmo":"90630101001","parentGuid":"d04c0f8c-fe4d-4b5a-ad8e-a43f3be133c9","cadnum":""},{"id":"4001800100000","name":"\u041c\u043e\u0441\u0430\u043b\u044c\u0441\u043a","zip":249930,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"29229501000","contentType":"city","guid":"4ae6d306-349e-4fb8-9ce9-7c3735d3c4e6","ifnsfl":"4023","ifnsul":"4023","oktmo":"29629101001","parentGuid":"330725f9-b35b-453c-a2b3-e7844d2ef172","cadnum":""},{"id":"6102500100000","name":"\u041c\u043e\u0440\u043e\u0437\u043e\u0432\u0441\u043a","zip":347211,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"60234501000","contentType":"city","guid":"933cca52-9ab1-490e-b674-ec3789233e28","ifnsfl":"6192","ifnsul":"6192","oktmo":"60634101001","parentGuid":"3df59ad3-25ad-4348-8a9b-dcf40d8ed3f8","cadnum":""},{"id":"7501400100000","name":"\u041c\u043e\u0433\u043e\u0447\u0430","zip":673730,"type":"\u0413\u043e\u0440\u043e\u0434","typeShort":"\u0433","okato":"76226501000","contentType":"city","guid":"29eb6b99-27ad-493c-9fd1-a83fe8acdf24","ifnsfl":"7527","ifnsul":"7527","oktmo":"76626101001","parentGuid":"cafc58e1-f461-4298-a150-4724110d102f","cadnum":""}]}'
+  recorded_at: Mon, 10 Oct 2022 19:24:40 GMT
+recorded_with: VCR 6.1.0
